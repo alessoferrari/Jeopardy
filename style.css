@@ -1,0 +1,277 @@
+
+
+/*::before and ::after pseudo-elements allow you to add content to
+ a specific part of an element you have selected in a CSS rule.EG links Emoji*/
+*,
+*::before
+*::after {
+    
+    box-sizing: content-box;
+    width: 100%;
+    font-family: fantasy;    
+     
+}
+ 
+body {
+
+    display: flexbox;
+    padding: auto;
+    margin: 20px;
+    border: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 8, 8, 0.89);
+    font-size: 1.8rem;
+}
+
+
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    border-radius: 1px;
+    background-color: rgba(0, 0, 5, 0.938);
+    
+    margin-left: 10px;
+    box-shadow: 0 0 50px 2px;
+    }
+
+#exhaust-btn{
+    top: 40px; left: 40px;
+    font-family: fantasy;
+    font-size: 1.9rem;
+    color: rgb(94, 131, 241);
+    font-weight: none;
+    padding: 280px 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2.5px;
+    background-color: #000103f0;
+    margin-right:  20px;
+    margin-left:34px ;
+    margin-bottom: 30px;
+    }
+
+#exhaustH-btn {
+    
+    top: 40px; left: 40px;
+    
+   font-family: fantasy;
+   font-size: 1.9rem;
+   color: rgb(94, 131, 241);
+   font-weight: none;
+   padding: 280px 60px;
+   border-radius: 5px;
+   box-shadow: 0 0 2px 2.5px;
+   background-color: #000103f0;
+   margin-right: 5px;
+   margin-left:40px ;
+   margin-bottom: 30px;
+   }
+
+#controls {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-shadow: 3px;
+    font-size: 1.8rem;
+}
+
+#userAnswer {
+    height: NONE;
+    width: 350px;;
+    font-size: 1.8rem;
+    color: rgb(94, 131, 241);
+    background-color:#000103f0;
+    box-shadow: 0 0 5px 2.5px;
+    border-radius: 1px; 
+    margin-left: 0px;
+    margin-right: 5px ;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px;
+}
+
+#reset {
+    height: vh;
+    width: 350px; 
+    font-family: fantasy;
+    font-size: 1.8rem;
+    color: rgb(94, 131, 241);
+    background-color: #000103f0;
+    box-shadow: 0 0 5px 2.5px;
+    border-radius: 1px; 
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 15px 10px 30px;
+
+
+}
+
+#game-form {
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: fantasy;
+}
+
+#counterDown {
+    font: size 4.6em ;
+    font-family: fantasy;
+    font-weight: none;
+    color: rgb(209, 23, 23);
+    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#question {
+    font-family: fantasy 'Trebuchet MS', ;
+    color: rgb(94, 131, 241);
+    font-weight: none;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#category {
+    font-family: fantasy;
+    font-size: 3.2rem;
+    color:rgb(94, 131, 241);
+    font-weight: lighterbold ;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+#scoreMark {
+    
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: rgb(209, 23, 23);
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-bottom: px;
+    border-width: 6px;
+}
+
+#checkAnswer {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 22px;
+    margin-bottom: 17px;
+    color: rgba(181, 10, 10, 0.695);
+}
+
+#Jeopardy  {
+
+    text-align:center ;
+    font-family: fantasy;
+    font-size: 8.9rem;
+    color: rgb(94, 131, 241);
+    font-weight: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+
+/* this version is made to work on Iphone !2 Pro(even thought its need to be polish */
+
+@media only screen and (max-width: 400px){
+
+    .container {
+        margin-top:0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom:0px ; 
+        padding: 5%;
+    }
+     #exhaust-btn{
+        font-size: 1rem;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 120px 30px;
+
+
+     }
+    #exhaustH-btn {
+        font-size: 1rem;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 120px 30px;
+
+     }
+
+    #score { 
+        font-size: 0rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-width: 0px;
+    }
+
+    #userAnswer{
+        height: 2.5vh;
+        width: 150px;
+        margin-right: 0 ;
+        margin-left:  0;
+}
+
+    #category {
+        font-family: fantasy;
+        font-size: 20px;
+        color:rgb(94, 131, 241);
+        font-weight: lighterbold ;
+        margin-bottom: 80px;
+}
+
+    #question {
+        font-family: fantasy 'Trebuchet MS', ;
+        color: rgb(94, 131, 241);
+        font-weight: none;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+
+
+    #reset{
+        height: 1vh;
+        width: 160px;
+        margin-right: 0 ;
+        margin-left:  15px; 
+        font-family: fantasy;
+        font-size: 15px;
+}
+    #Jeopardy  {
+        font-size: 4rem;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0ex0px;
+}
+
+
+    .container {
+        width: 350px;
+        max-width: 120%;
+        border-radius: 5px;
+        padding-right: 1%;
+        padding-left: 1%;
+        background-color:rgb(64, 0, 255) ;
+        box-shadow: 0 0 10px 2px; 
+}
+
+
+}
+
+
