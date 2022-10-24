@@ -63,10 +63,10 @@ resetBtnAnswer.addEventListener("click", function(event) {
 
     } else if (userAnswer === answerInput.value) {
         score += 1;
-        scoreMark.innerHTML = "  🥇" + score; 
+        scoreMark.innerHTML = " 🥇" + score; 
         answerInput.value = "";
         matchContainer.style.background = "Black";
-        answerCheck.innerHTML = " 5️⃣0️⃣0️⃣";
+        answerCheck.innerHTML = " 5️⃣0️⃣0️⃣ ";
     } 
 
     else {
