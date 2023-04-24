@@ -1,7 +1,5 @@
-
-// Thank You W3 SCHOOLS HELPING TO DECODE HUE HTML5 WITH COLORS //
-// GITHUB ALWAYS THERE FOR CODES AND IDEAS 
-
+// Implementation of Emoji in a simple Java Script version of Jeopardy
+ // Imolement g API adquirimg the the Quedtion and Anwers for the Aplicación 
 
 let cluesArray = [];
 let questionNumber = 0;
