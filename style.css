@@ -182,7 +182,7 @@ body {
     margin-bottom: 130px;
 }
 
-/* this version is made to work on iPhone 12 and higher operating g system IOS including IOS beta 18*/
+/* this versionhad made to operate on iPhone 12 and up including IOS version 18 Beta & public */
 
 @media only screen and (max-width: 400px){
 
@@ -240,10 +240,8 @@ body {
         margin-top: 15px;
         margin-bottom: 40px;
         text-align: center;
+    
     }
-
-
-
     #reset{
         height: 1vh;
         width: 160px;
@@ -258,8 +256,6 @@ body {
         margin-left: 0px;
         margin-right: 0ex0px;
 }
-
-
     .container {
         width: 350px;
         max-width: 120%;
