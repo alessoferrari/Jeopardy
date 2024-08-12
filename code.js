@@ -1,4 +1,4 @@
-// Implementation of Emoji in a simple Java Script version of Jeopardy
+n// Implementation of Emoji in a simple Java Script version of Jeopardy
  // Imolement g API adquirimg the the Quedtion and Anwers for the Aplicación 
 
 let cluesArray = [];
